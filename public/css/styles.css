@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+
+  }
+  nav{
+      width: 100%;
+      position:absolute; 
+     background-image: linear-gradient(#041218,#a9d6e5);
+  }
+nav ul li{
+    float: left;
+    list-style-type: none;
+    padding: 15px;
+ 
+
+   
+}
+nav ul li a{
+    color:aliceblue; 
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-image: linear-gradient(#020d11,#2e383b);
+
+}
+.home{
+    width: 100%;
+   display: block;
+}
+footer{
+    background-image: linear-gradient(#041218,#a9d6e5);
+    color: aliceblue; 
+    text-align: center;
+    width:100%;
+    position: relative;
+
+}
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+.heroes{
+ 
+   animation-duration: 5s;
+   animation-name: aparecer;
+   width: 300px;
+
+   
+}
+
+
+h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.submenu{
+    display: none;
+}
+
+.icono{
+    width: 15px;
+}
+button{
+   font-size: larger;
+    background: transparent;  
+    height: 150px;
+    width: 300px;
+}
+.atajos {
+
+    display: inline-flex;
+    flex-flow: wrap;
+    flex-direction:row; 
+    justify-content: center;
+    margin-top: 33%;
+   
+ 
+
+}
+.atajos div{
+     background-size:cover;
+     width: 300px;
+     height: 150px;
+
+    
+}
+main{
+    height: 750px; 
+    width: 100%;
+}
+#imagen-home{
+    background-image: url('https://media.comicbook.com/2015/09/heroeslogo-151141.png');
+   background-size:cover;
+   
+}
+
+#imagen-babbage{
+    background-image: url("https://images.greelane.com/proxy?url=https%3A%2F%2Fwww.thoughtco.com%2Fthmb%2FdGSgx73on5IsRp1Tr25uUsO-pis%3D%2F2703x1912%2Ffilters%3Afill%28auto%2C1%29%2Fbabbge-5b8587cac9e77c0025e6f233.png&width=750");
+ 
+}
+#imagen-berns-lee{
+    background-image: url("https://i.blogs.es/038db3/berners-1/1366_2000.jpeg");
+}
+#imagen-Clark{
+    background-image: url('https://images.ecestaticos.com/OnS8BFcdt8EmN41oqx7ZHdtR5Gc=/1x8:1280x720/1440x810/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fa48%2F264%2Fce7%2Fa48264ce7500956a6d317dfb7096a16d.jpg');
+}
+#imagen-Hamilton{
+    background-image: url('https://sevilla.abc.es/xlsemanal/wp-content/uploads/sites/5/2022/02/margaret-hamilton-matematica-informatica-ordenador-llevo-hombre-luna-10.jpg');
+}
+#imagen-Hopper{
+    background-image: url('https://miro.medium.com/max/640/1*Uh_OcLGXAbU-qfK60Jn8Tw.jpeg');
+}
+#imagen-Turing{
+    background-image: url('https://okdiario.com/img/2021/06/23/alan-turing.jpeg');
+}
+#imagen-Lovelace{
+    background-image: url('https://talently.tech/blog/wp-content/uploads/2021/02/mujeres-programadoras.jpeg');
+}
+#inicio{
+    margin: 100px;
+
+}
+#nudo{
+    margin: 100px;
+}
+#desenlace{
+    margin: 100px; 
+}
+.grid{
+    display: grid; 
+    grid-template-columns: auto auto;
+}
+
+ul li {
+    list-style: none; 
+   
+}
+ul li a{
+    text-decoration: none;
+}
+.frase{
+    background-color: antiquewhite;
+    padding: 10px 10px; 
+     text-align: center;
+     width: 50%;
+}
